@@ -12,7 +12,7 @@ RUN apt-get update && apt-get install -y \
     git \
     && rm -rf /var/lib/apt/lists/*
 
-RUN git clone https://github.com/kael558/redesigned-spoon.git .
+RUN git clone https://github.com/mrmps/redesigned-spoon.git .
 
 COPY .env /app/
 
